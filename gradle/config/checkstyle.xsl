@@ -372,7 +372,7 @@
         </xsl:attribute>
     </xsl:template>
 
-    <!-- determine if this is the first occurance of the given name in the input -->
+    <!-- determine if this is the first occurrence of the given name in the input -->
     <xsl:template name="isfirst">
         <xsl:param name="name"/>
         <xsl:value-of select="count(preceding-sibling::file[@name=$name]) = 0"/>
